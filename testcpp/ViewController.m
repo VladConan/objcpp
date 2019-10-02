@@ -13,6 +13,7 @@
 @property (nonatomic, assign) UITextField *urlTextField;
 @property (nonatomic, assign) UITextField *filterTextField;
 @property (nonatomic, assign) UIButton* findButton;
+@property (nonatomic, assign) UITextView* logView;
 
 @end
 
@@ -49,6 +50,15 @@
 	find.translatesAutoresizingMaskIntoConstraints = NO;
 	[self.view addSubview:find];
 	self.findButton = find;
+	UITextView* textView = [UITextView new];
+	textView.backgroundColor = [[UIColor lightGrayColor] colorWithAlphaComponent:0.5];
+	textView.textColor = [UIColor blackColor];
+	textView.font = [UIFont systemFontOfSize:10 weight:UIFontWeightLight];
+	textView.translatesAutoresizingMaskIntoConstraints = NO;
+	textView.text = NSLocalizedString(@"Result", @"");
+	textView.editable = NO;
+	[view addSubview:textView];
+	self.logView = textView;
 }
 
 - (void)viewDidLoad {
@@ -69,13 +79,18 @@
 		[self.findButton.heightAnchor constraintEqualToConstant:44],
 		[self.findButton.widthAnchor constraintEqualToConstant:100],
 		[self.findButton.topAnchor constraintEqualToAnchor:self.filterTextField.bottomAnchor constant:20],
-		[self.findButton.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor]
+		[self.findButton.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor],
+		[self.logView.topAnchor constraintEqualToAnchor:self.findButton.bottomAnchor constant:20],
+		[self.logView.leftAnchor constraintEqualToAnchor:self.view.leftAnchor constant:16],
+		[self.logView.rightAnchor constraintEqualToAnchor:self.view.rightAnchor constant:-16],
+		[self.logView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor constant:-25]
 	];
 	[NSLayoutConstraint activateConstraints:constaints];
 }
 
 
 - (void)findAction {
+	[self.view endEditing:YES];
 	if ([self.filterTextField.text length] == 0){
 		// TODO: show error
 		return;
