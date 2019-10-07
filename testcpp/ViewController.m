@@ -14,6 +14,7 @@
 @property (nonatomic, assign) UITextField *filterTextField;
 @property (nonatomic, assign) UIButton* findButton;
 @property (nonatomic, assign) UITextView* logView;
+@property (nonatomic, retain) NSLayoutConstraint* logViewBottom;
 
 @end
 
@@ -69,6 +70,7 @@
 }
 
 - (void)configureConstraints{
+	self.logViewBottom = [self.logView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor constant:-25];
 	NSArray <NSLayoutConstraint*> *constaints = @[
 		[self.urlTextField.leftAnchor constraintEqualToAnchor:self.view.leftAnchor constant:15],
 		[self.urlTextField.rightAnchor constraintEqualToAnchor:self.view.rightAnchor constant:-15],
@@ -83,7 +85,7 @@
 		[self.logView.topAnchor constraintEqualToAnchor:self.findButton.bottomAnchor constant:20],
 		[self.logView.leftAnchor constraintEqualToAnchor:self.view.leftAnchor constant:16],
 		[self.logView.rightAnchor constraintEqualToAnchor:self.view.rightAnchor constant:-16],
-		[self.logView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor constant:-25]
+		self.logViewBottom
 	];
 	[NSLayoutConstraint activateConstraints:constaints];
 }
