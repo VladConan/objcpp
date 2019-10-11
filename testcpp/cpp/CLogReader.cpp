@@ -18,14 +18,30 @@ CLogReader::~CLogReader(){
 }
 
 bool CLogReader::SetFilter(const char *filter){
-	size_t len = strnlen(filter, 1024);
-	search_filter = new char[len]();
-	strncpy(search_filter, filter, 1024);
-	if (len == 1024) { // limit
-		search_filter[1023] = 0;
+	if (filter == nullptr) {
+		return false;
 	}
-	// TODO: process input string
+	const size_t len = strnlen(filter, 1024);
+	search_filter = new char[len+1]();
+	int i=0;
+	int j=0;
+	while (filter[i] != 0 && i<len) {
+		search_filter[j] = filter[i];
+		if (i>0 && filter[i-1] == '*' && filter[i]=='*') {
+			do i++; while (filter[i] == '*' && i<len);
+			search_filter[j] = filter[i];
+		}
+		j++;
+		i++;
+	};
+	if (j>=1024) {
+		search_filter[len-1] = 0;
+	}
 	return true;
+}
+
+const char* CLogReader::GetFilter(){
+	return search_filter;
 }
 
 bool CLogReader::AddSourceBlock(const char* block,const size_t block_size){

@@ -20,6 +20,7 @@ public:
 	CLogReader();
 	~CLogReader();
 	bool SetFilter(const char *filter); /// установка фильтра строк, false - ошибка, пусть максимальный размер будет 1024
+	const char* GetFilter();
 	bool AddSourceBlock(const char* block,const size_t block_size); /// добавление очередного блока текстового файла
 private:
 	char* search_filter;

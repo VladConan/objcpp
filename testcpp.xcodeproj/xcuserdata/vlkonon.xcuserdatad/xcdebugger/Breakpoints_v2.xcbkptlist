@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D03CF88D-2C78-4C38-AF15-903DDE5025E9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7D12742A-F91F-44FB-9444-95010226FF02"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testcppTests/testcppTests.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-testFilerLongString"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7D12742A-F91F-44FB-9444-95010226FF02 - 2afe39c880c73308"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerLongString]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "7D12742A-F91F-44FB-9444-95010226FF02 - 2afe39c880c73308"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerLongString]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "548">
+               </Location>
+               <Location
+                  uuid = "7D12742A-F91F-44FB-9444-95010226FF02 - 2afe39c880c73308"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerLongString]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "1018">
+               </Location>
+               <Location
+                  uuid = "7D12742A-F91F-44FB-9444-95010226FF02 - 2afe39c880c73308"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerLongString]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "1143">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "840C2BD6-1B79-4B65-B919-C1C11BC4DC4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testcppTests/testcppTests.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "-testFilerManyAny"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E62B60C-5003-4340-B57F-246279FB83D2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testcppTests/testcppTests.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "-testFilerLongString"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0E62B60C-5003-4340-B57F-246279FB83D2 - 2afe39c880c73308"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerLongString]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "0E62B60C-5003-4340-B57F-246279FB83D2 - 2afe39c880c73308"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerLongString]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "2463">
+               </Location>
+               <Location
+                  uuid = "0E62B60C-5003-4340-B57F-246279FB83D2 - 2afe39c880c73308"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerLongString]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "2546">
+               </Location>
+               <Location
+                  uuid = "0E62B60C-5003-4340-B57F-246279FB83D2 - 2afe39c880c73308"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerLongString]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "2692">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "01EF0798-A2EC-4364-BC9D-F2F82B184A13"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testcpp/cpp/CLogReader.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "CLogReader::SetFilter(filter)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8A2023A2-24AE-4F74-9CB2-9B77A4D34292"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testcpp/cpp/CLogReader.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "CLogReader::SetFilter(filter)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9D2B7AE-76AC-4845-9427-3F032A20106D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testcppTests/testcppTests.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "-testFilerManyAny"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F9D2B7AE-76AC-4845-9427-3F032A20106D - 5835e42b650c79f3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerManyAny]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "547">
+               </Location>
+               <Location
+                  uuid = "F9D2B7AE-76AC-4845-9427-3F032A20106D - 5835e42b650c79f3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerManyAny]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "2238">
+               </Location>
+               <Location
+                  uuid = "F9D2B7AE-76AC-4845-9427-3F032A20106D - 5835e42b650c79f3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerManyAny]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "2292">
+               </Location>
+               <Location
+                  uuid = "F9D2B7AE-76AC-4845-9427-3F032A20106D - 5835e42b650c79f3"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerManyAny]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "2417">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDA6EB0F-2403-43E8-B544-EC47940DB15B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testcppTests/testcppTests.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-testFilerManyAny"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5578249D-3367-428E-9ED5-04B84A15C89A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testcppTests/testcppTests.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-testFilerOneStarStaterOneInsideManyEnd"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5578249D-3367-428E-9ED5-04B84A15C89A - 9f2361692f036cfb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerOneStarStaterOneInsideManyEnd]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "547">
+               </Location>
+               <Location
+                  uuid = "5578249D-3367-428E-9ED5-04B84A15C89A - 9f2361692f036cfb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerOneStarStaterOneInsideManyEnd]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2238">
+               </Location>
+               <Location
+                  uuid = "5578249D-3367-428E-9ED5-04B84A15C89A - 9f2361692f036cfb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerOneStarStaterOneInsideManyEnd]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2292">
+               </Location>
+               <Location
+                  uuid = "5578249D-3367-428E-9ED5-04B84A15C89A - 9f2361692f036cfb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerOneStarStaterOneInsideManyEnd]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "2417">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5567134-7BB1-4BC8-B80B-656F0FE33B6F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testcppTests/testcppTests.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-testFilerOneStarStaterOneInsideManyEnd"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D5567134-7BB1-4BC8-B80B-656F0FE33B6F - 9f2361692f036cfb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerOneStarStaterOneInsideManyEnd]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  uuid = "D5567134-7BB1-4BC8-B80B-656F0FE33B6F - 9f2361692f036cfb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerOneStarStaterOneInsideManyEnd]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "538">
+               </Location>
+               <Location
+                  uuid = "D5567134-7BB1-4BC8-B80B-656F0FE33B6F - 9f2361692f036cfb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerOneStarStaterOneInsideManyEnd]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1015">
+               </Location>
+               <Location
+                  uuid = "D5567134-7BB1-4BC8-B80B-656F0FE33B6F - 9f2361692f036cfb"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerOneStarStaterOneInsideManyEnd]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1140">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67632E28-65CE-4C81-9A37-4F1475F0536E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testcppTests/testcppTests.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "-testFilerNormal"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "67632E28-65CE-4C81-9A37-4F1475F0536E - d810c86239323af2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerNormal]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  uuid = "67632E28-65CE-4C81-9A37-4F1475F0536E - d810c86239323af2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerNormal]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "538">
+               </Location>
+               <Location
+                  uuid = "67632E28-65CE-4C81-9A37-4F1475F0536E - d810c86239323af2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerNormal]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1029">
+               </Location>
+               <Location
+                  uuid = "67632E28-65CE-4C81-9A37-4F1475F0536E - d810c86239323af2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerNormal]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1154">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D37527D-AD7A-4D15-A842-6005B61CFF07"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "testcppTests/testcppTests.mm"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "-testFilerOneStar"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8D37527D-AD7A-4D15-A842-6005B61CFF07 - 582215fe0aba47f5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerOneStar]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  uuid = "8D37527D-AD7A-4D15-A842-6005B61CFF07 - 582215fe0aba47f5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerOneStar]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "538">
+               </Location>
+               <Location
+                  uuid = "8D37527D-AD7A-4D15-A842-6005B61CFF07 - 582215fe0aba47f5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerOneStar]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1029">
+               </Location>
+               <Location
+                  uuid = "8D37527D-AD7A-4D15-A842-6005B61CFF07 - 582215fe0aba47f5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[testcppTests testFilerOneStar]"
+                  moduleName = "testcppTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vlkonon/repos/objcpp/testcppTests/testcppTests.mm"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1154">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
