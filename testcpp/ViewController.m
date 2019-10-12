@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "Loader.h"
+
 @interface ViewController ()
 
 @property (nonatomic, assign) UITextField *urlTextField;
@@ -15,7 +17,7 @@
 @property (nonatomic, assign) UIButton* findButton;
 @property (nonatomic, assign) UITextView* logView;
 @property (nonatomic, retain) NSLayoutConstraint* logViewBottom;
-
+@property (nonatomic, retain) Loader* loader;
 @end
 
 @implementation ViewController
@@ -60,6 +62,14 @@
 	textView.editable = NO;
 	[view addSubview:textView];
 	self.logView = textView;
+	self.loader = [Loader new];
+}
+
+- (void)dealloc
+{
+	[_loader dealloc];
+	[_logViewBottom dealloc];
+	[super dealloc];
 }
 
 - (void)viewDidLoad {
@@ -70,7 +80,7 @@
 }
 
 - (void)configureConstraints{
-	self.logViewBottom = [self.logView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor constant:-25];
+	self.logViewBottom = [[self.logView.bottomAnchor constraintEqualToAnchor:self.view.bottomAnchor constant:-25] retain];
 	NSArray <NSLayoutConstraint*> *constaints = @[
 		[self.urlTextField.leftAnchor constraintEqualToAnchor:self.view.leftAnchor constant:15],
 		[self.urlTextField.rightAnchor constraintEqualToAnchor:self.view.rightAnchor constant:-15],
