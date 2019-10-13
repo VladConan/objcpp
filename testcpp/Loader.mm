@@ -40,26 +40,28 @@
 }
 
 - (void)startLoadingFromURL: (NSURL *) url resultBlock: (ResultBlock) resultBlock finishBlock:(FinishBlock) finishBlock{
-	_resultBlock = [resultBlock copy];
-	_finishBlock = [finishBlock copy];
-	_dataTask = [self.urlSession dataTaskWithURL:url];
+	self.resultBlock = resultBlock;
+	self.finishBlock = finishBlock;
+	self.dataTask = [self.urlSession dataTaskWithURL:url];
 	[_dataTask resume];
 }
 
 - (void)cancel{
-	if (self.dataTask && self.dataTask.state == NSURLSessionTaskStateRunning) {
+	if ([self isLoading]) {
 		[self.dataTask cancel];
 		[self finishWithSuccess];
 	}
+}
+
+-(BOOL)isLoading{
+	return self.dataTask && self.dataTask.state == NSURLSessionTaskStateRunning;
 }
 
 - (void)finishWithSuccess{
 	self.dataTask = nil;
 	if (self.finishBlock){
 		self.finishBlock(nil);
-		[self.finishBlock release];
 		self.finishBlock = nil;
-		[self.finishBlock release];
 		self.resultBlock = nil;
 	}
 }
@@ -68,9 +70,7 @@
 	self.dataTask = nil;
 	if (self.finishBlock){
 		self.finishBlock(error);
-		[self.finishBlock release];
 		self.finishBlock = nil;
-		[self.finishBlock release];
 		self.resultBlock = nil;
 	}
 }

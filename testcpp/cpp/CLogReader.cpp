@@ -10,19 +10,16 @@
 #include <cstring>
 
 CLogReader::CLogReader(){
-	
 }
 
 CLogReader::~CLogReader(){
-	
 }
 
 bool CLogReader::SetFilter(const char *filter){
 	if (filter == nullptr) {
 		return false;
 	}
-	const size_t len = strnlen(filter, 1024);
-	search_filter = new char[len+1]();
+	const size_t len = strnlen(filter, SEARCH_FILTER_MAX_LEN);
 	int i=0;
 	int j=0;
 	while (filter[i] != 0 && i<len) {
@@ -34,8 +31,8 @@ bool CLogReader::SetFilter(const char *filter){
 		j++;
 		i++;
 	};
-	if (j>=1024) {
-		search_filter[len-1] = 0;
+	if (j>=SEARCH_FILTER_MAX_LEN) {
+		search_filter[SEARCH_FILTER_MAX_LEN-1] = 0;
 	}
 	return true;
 }

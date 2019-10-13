@@ -15,6 +15,8 @@ extern "C" {
 
 #include <cstddef>
 
+#define SEARCH_FILTER_MAX_LEN 1024
+
 class CLogReader {
 public:
 	CLogReader();
@@ -23,7 +25,7 @@ public:
 	const char* GetFilter();
 	bool AddSourceBlock(const char* block,const size_t block_size); /// добавление очередного блока текстового файла
 private:
-	char* search_filter;
+	char search_filter[SEARCH_FILTER_MAX_LEN];
 };
 
 #ifdef __cplusplus

@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)startLoadingFromURL: (NSURL *) url resultBlock: (ResultBlock) resultBlock finishBlock:(FinishBlock) finishBlock;
 - (void)cancel;
+
+-(BOOL)isLoading;
 @end
 
 NS_ASSUME_NONNULL_END

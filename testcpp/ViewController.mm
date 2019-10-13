@@ -7,17 +7,20 @@
 //
 
 #import "ViewController.h"
-
+#import "CLogReader.h"
 #import "Loader.h"
 
 @interface ViewController ()
-
+{
+	CLogReader* reader;
+}
 @property (nonatomic, assign) UITextField *urlTextField;
 @property (nonatomic, assign) UITextField *filterTextField;
 @property (nonatomic, assign) UIButton* findButton;
 @property (nonatomic, assign) UITextView* logView;
 @property (nonatomic, retain) NSLayoutConstraint* logViewBottom;
 @property (nonatomic, retain) Loader* loader;
+
 @end
 
 @implementation ViewController
@@ -34,7 +37,7 @@
 	url.delegate = self;
 	url.keyboardType = UIKeyboardTypeURL;
 	url.returnKeyType = UIReturnKeyNext;
-	url.text = @"http://";
+	url.text = @"https://norvig.com/big.txt";
 	[view addSubview:url];
 	self.urlTextField = url;
 	UITextField *filter = [UITextField new];
@@ -62,13 +65,13 @@
 	textView.editable = NO;
 	[view addSubview:textView];
 	self.logView = textView;
-	self.loader = [Loader new];
 }
 
 - (void)dealloc
 {
-	[_loader dealloc];
-	[_logViewBottom dealloc];
+	self.loader=nil;
+	self.logViewBottom=nil;
+	delete reader;
 	[super dealloc];
 }
 
@@ -77,6 +80,8 @@
 	self.title = NSLocalizedString(@"Test", @"");
 	[self configureConstraints];
 	[self.urlTextField becomeFirstResponder];
+	self.loader = [Loader new];
+	reader = new CLogReader();
 }
 
 - (void)configureConstraints{
@@ -103,9 +108,44 @@
 
 - (void)findAction {
 	[self.view endEditing:YES];
-	if ([self.filterTextField.text length] == 0){
-		// TODO: show error
+	if (self.loader.isLoading){
+		[self.loader cancel];
+		[self.findButton setTitle:@"Search" forState:UIControlStateNormal];
 		return;
+	}
+	if ([self.filterTextField.text length] == 0){
+		[self showAlertTitle:@"Error" message:@"Search text is empty"];
+		return;
+	}
+	NSURL* url = [NSURL URLWithString:self.urlTextField.text];
+	if (!url){
+		[self showAlertTitle:@"Error" message:@"Can't get url"];
+	}
+	if (reader->SetFilter([self.filterTextField.text cStringUsingEncoding:NSASCIIStringEncoding])){
+		[self.findButton setTitle:@"Stop search" forState:UIControlStateNormal];
+		[self.loader startLoadingFromURL:url
+							 resultBlock:^(NSData * _Nonnull data) {
+			if (reader->AddSourceBlock((const char*)data.bytes, data.length)) {
+				// TODO: get results
+				printf("got %lu bytes\n", data.length);
+			}
+			else {
+				// TODO: log error
+				printf("got error adding block\n");
+			}
+		} finishBlock:^(NSError * _Nullable error) {
+			if (error){
+				dispatch_async(dispatch_get_main_queue(), ^{
+					[self showAlertTitle:@"Error" message:[error localizedDescription]];
+				});
+			}
+			else {
+				printf("Finished loading\n");
+			}
+		}];
+	}
+	else {
+		[self showAlertTitle:@"Error" message:@"Can't set filter string"];
 	}
 	// TODO: call search
 }
@@ -118,5 +158,17 @@
 		[self findAction];
 	}
 	return NO;
+}
+
+-(void)showAlertTitle:(nullable NSString *)title message:(nullable NSString *)message{
+	UIAlertController *ac = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
+	[ac addAction:[UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+		
+	}]];
+	[self presentViewController:ac animated:YES completion:nil];
+}
+
+-(void)addToLog:(NSString*) string{
+	
 }
 @end
