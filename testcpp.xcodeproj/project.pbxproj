@@ -15,6 +15,7 @@
 		D414591E2350554C0034E35D /* testcppTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = D414591D2350554C0034E35D /* testcppTests.mm */; };
 		D45DADBD234B0F2F00C081F7 /* CLogReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D45DADBB234B0F2F00C081F7 /* CLogReader.cpp */; };
 		D495BF1C2352515F004B1D76 /* Loader.mm in Sources */ = {isa = PBXBuildFile; fileRef = D495BF1B2352515F004B1D76 /* Loader.mm */; };
+		D495BF1F2356E072004B1D76 /* nfa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D495BF1D2356E072004B1D76 /* nfa.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +42,11 @@
 		D414591D2350554C0034E35D /* testcppTests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = testcppTests.mm; sourceTree = "<group>"; };
 		D414591F2350554C0034E35D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D45DADBB234B0F2F00C081F7 /* CLogReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CLogReader.cpp; sourceTree = "<group>"; };
-		D45DADBC234B0F2F00C081F7 /* CLogReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CLogReader.h; sourceTree = "<group>"; };
+		D45DADBC234B0F2F00C081F7 /* CLogReader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CLogReader.hpp; sourceTree = "<group>"; };
 		D495BF1A2352515F004B1D76 /* Loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Loader.h; sourceTree = "<group>"; };
 		D495BF1B2352515F004B1D76 /* Loader.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Loader.mm; sourceTree = "<group>"; };
+		D495BF1D2356E072004B1D76 /* nfa.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = nfa.cpp; sourceTree = "<group>"; };
+		D495BF1E2356E072004B1D76 /* nfa.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = nfa.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +115,10 @@
 		D45DADBA234B0E7200C081F7 /* cpp */ = {
 			isa = PBXGroup;
 			children = (
-				D45DADBC234B0F2F00C081F7 /* CLogReader.h */,
+				D45DADBC234B0F2F00C081F7 /* CLogReader.hpp */,
 				D45DADBB234B0F2F00C081F7 /* CLogReader.cpp */,
+				D495BF1E2356E072004B1D76 /* nfa.hpp */,
+				D495BF1D2356E072004B1D76 /* nfa.cpp */,
 			);
 			path = cpp;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 				845EC2A1233E3B96000F0095 /* ViewController.mm in Sources */,
 				845EC2AC233E3B98000F0095 /* main.m in Sources */,
 				845EC29E233E3B96000F0095 /* AppDelegate.m in Sources */,
+				D495BF1F2356E072004B1D76 /* nfa.cpp in Sources */,
 				D45DADBD234B0F2F00C081F7 /* CLogReader.cpp in Sources */,
 				D495BF1C2352515F004B1D76 /* Loader.mm in Sources */,
 			);

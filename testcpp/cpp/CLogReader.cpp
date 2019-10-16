@@ -6,7 +6,7 @@
 //  Copyright © 2019 konon. All rights reserved.
 //
 
-#include "CLogReader.h"
+#include "CLogReader.hpp"
 #include <cstring>
 
 CLogReader::CLogReader(){

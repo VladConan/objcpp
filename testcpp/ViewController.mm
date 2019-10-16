@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CLogReader.h"
+#import "CLogReader.hpp"
 #import "Loader.h"
 
 @interface ViewController ()
